@@ -4,12 +4,12 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: vpindelski/simple:latest
+      - image: vpindelski/epita-environment:latest
     steps:
       - run: echo "This is the build job."
   test:
     docker:
-      - image: vpindelski/simple:latest
+      - image: vpindelski/epita-environment:latest
     steps:
       - run: echo "This is the test job."
 
