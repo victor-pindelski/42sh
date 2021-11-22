@@ -1,3 +1,3 @@
 # 42sh
-participants :
+Participants :
 - Tom Durand-Gasselin
